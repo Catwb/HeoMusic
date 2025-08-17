@@ -13,6 +13,9 @@ if (typeof userServer === 'undefined') {
 if (typeof userType === 'undefined') {
   var userType = "playlist"; // 替换为实际的默认值
 }
+if (typeof userOrder === 'undefined') {
+  var userOrder = "list"; // 替换为实际的默认值
+}
 
 if (typeof remoteMusic !== 'undefined' && remoteMusic) {
   fetch(remoteMusic)
